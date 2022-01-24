@@ -9,19 +9,19 @@ const awards = [
   {
     name: "一等奖",
     count: 10,
-    img: "/fc01a7a528f9c531.png",
+    img: "./fc01a7a528f9c531.png",
     time: 10,
   },
   {
     name: "二等奖",
     count: 30,
-    img: "/78bfc03faf8b1e2d.png",
+    img: "./78bfc03faf8b1e2d.png",
     time: 5,
   },
   {
     name: "三等奖",
     count: 50,
-    img: "/934dbc9de37038f2.png",
+    img: "./934dbc9de37038f2.png",
     time: 5,
   },
 ];
