@@ -113,7 +113,7 @@ export default function useLottery<A extends Award>(
             ? users.find((u) => u.id === sure[award.name][index])
             : undefined;
           if (sureUser) {
-            finailySureData[award.name] = sure[award.name].filter(
+            finailySureData[award.name] = finailySureData[award.name].filter(
               (id) => id !== sureUser?.id
             );
             return sureUser;

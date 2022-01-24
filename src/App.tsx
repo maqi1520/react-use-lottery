@@ -50,11 +50,11 @@ export default function App() {
   return (
     <div
       onClick={() => toggle()}
-      className="h-screen bg-gradient-to-b  from-red-800 to-red-400"
+      className="h-screen bg-gradient-to-b  to-red-500  from-[#DB172C] cursor-pointer"
     >
       <div className="container mx-auto h-full flex flex-col">
         <div className="flex-shrink-0">
-          <div className="text-8xl text-center text-yellow-500 py-20">
+          <div className="text-8xl text-center text-[#FFDB7B] py-20">
             杭州 JS 酷科技 2021 年度抽奖仪式
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function App() {
           <div className="col-span-1 text-center grid place-content-center">
             <img className="w-full" src={award.img} alt="" />
             <div className="text-6xl text-white">{award.name}</div>
-            <div className="text-4xl text-yellow-500 mt-10">
+            <div className="text-4xl text-[#FFDB7B] mt-10">
               ({currentWinners.length}/{award.count})
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function App() {
             {showUsers.map((user) => (
               <div
                 key={user.id}
-                className="font-semibold bg-black bg-opacity-20 text-white text-5xl  flex justify-center items-center"
+                className="font-semibold bg-gray-900 bg-opacity-20 text-white text-5xl  flex justify-center items-center"
               >
                 <span>{user.name}</span>
                 <span className="ml-10">GH{user.id}</span>
