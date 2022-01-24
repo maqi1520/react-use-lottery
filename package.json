@@ -48,6 +48,11 @@
       "last 1 safari version"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
   "devDependencies": {
     "@faker-js/faker": "^6.0.0-alpha.3",
     "@testing-library/jest-dom": "^5.14.1",
@@ -60,6 +65,7 @@
     "@types/react-dom": "^17.0.11",
     "autoprefixer": "^10.4.2",
     "classnames": "^2.3.1",
+    "git-cz": "^4.8.0",
     "postcss": "^8.4.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
