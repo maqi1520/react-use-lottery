@@ -1,6 +1,7 @@
 import { useRef, useReducer } from "react";
 
-function randomCountUser<T>(list: Array<T>, count: number) {
+function randomCountUser<T>(users: Array<T>, count: number) {
+  let list = [...users];
   let shows = [];
   for (let index = 0; index < count; index++) {
     const random = Math.floor(Math.random() * list.length);
